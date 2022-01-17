@@ -1,0 +1,1 @@
+Esta materia la cursé con el profesor José Alfredo Jimenez Benitez, en esta ruta se pueden encontrar las prácticas y las fases del proyecto que se realizaron.

@@ -1,0 +1,6 @@
+MESSAGE "File: C:\Documents and Settings\Eduardo\Mis documentos\GALAXY\PRAC_3\vhd\PRAC3.vhd" 
+MESSAGE "Compile Entity "mux"" 
+MESSAGE "Compile Architecture "DSMB" of Entity "mux"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   mux" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

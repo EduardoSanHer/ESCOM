@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: C:\Documents and Settings\Eduardo\Mis documentos\GALAXY\PRAC_2\vhd\PRACT2.vhd
+ Compile Entity "comp"
+ Compile Architecture "DSMB" of Entity "comp"
+ Top-Level unit detected
+ Entity  =>   comp
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]

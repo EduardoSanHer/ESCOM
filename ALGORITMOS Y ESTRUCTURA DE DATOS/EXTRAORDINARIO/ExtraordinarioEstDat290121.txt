@@ -1,0 +1,40 @@
+Viernes 29 de enero de 2021
+
+Examen Extraordinario 
+
+a) El examen deberás de enviarlo a la misma dirección de correo a la que enviaste
+los exámenes ordinarios.
+
+b) El examen lo deberás de enviar a mas tardar a las 8:30 am.
+
+c) El asunto del correo deberá ser Extra ApellidoPaterno ApellidoMaterno,
+por ejemplo Extra Suarez Castanon
+
+d) El examen lo deberás de resolver a mano, y enviarmé en un archivo comprimido
+fotografías de las respuestas.
+
+Preguntas:
+
+1.- Dibuja, paso a paso, el árbol AVL que resulta de insertar la lista 
+de números que aparece a un lado de tu número de boleta en el
+archivo extra.txt
+
+2.- Define una función "ElimOcurr" que reciba como argumento un entero n y una lista  l1.
+La función deberá eliminar todas las ocurrencias de n en l1, devolver la lista 
+que resulte. Por ejemplo, si l1=[2,6,4,7,9,5,2,4,3], y n=2, entonces:
+
+ImpElems(ElimOcurr(n,l1))= 6,4,7,9,5,4,3
+
+3.- Definir una función "Partición", que reciba como argumento un entero n y una lista l1.
+La función deberá ordenar l1, y devolver una lista que contenga todos los elementos menores
+que n. Por Ejemplo, si l1=[2,6,4,7,9,5,2,4,3], y n=5, entonces:
+
+ImpElems(Particion(n,l1))= 2,2,3,4
+
+4.- Definir una función "Diferencia", que reciba como argumentos dos listas l1 y l2.
+La función deberá devolver una lista que contenga todos los elementos de l2 que no están
+en l1. Por ejemplo, si l1=[4,3,6,2] y l2=[2,4,3,6,4,8,6,9], entonces:
+
+ImpElems(Diferencia(l1,l2))=8,9
+
+

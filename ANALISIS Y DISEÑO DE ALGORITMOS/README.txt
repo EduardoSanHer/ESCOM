@@ -1,0 +1,1 @@
+Esta materia la cursé con el profesor Joel Omar Juárez Gambino, no realizamos mucho código además de las 3 prácticas que dejó durante el semestre y las cuales se pueden encontrar en esta ruta junto a algunos PDF que incluyen las especificaciones y la explicación de los códigos.

@@ -1,0 +1,271 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  Untitled.vhd
+Options:    -m -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-25pc/pi -b Untitled.vhd -u Pract2.hie
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Fri Oct 08 18:49:12 2021
+
+Library 'work' => directory 'lc22v10'
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work'
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Fri Oct 08 18:49:12 2021
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+tovif:  No errors.
+
+
+topld V6.3 IR 35:  Synthesis and optimization
+Fri Oct 08 18:49:12 2021
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+
+
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 9 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 1 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 10.
+----------------------------------------------------------
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 0 wires.
+------------------------------------------------------
+Created 29 PLD nodes.
+
+topld:  No errors.
+
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN HEADER INFORMATION  (18:49:13)
+
+Input File(s): Untitled.pla
+Device       : C22V10
+Package      : palce22v10-25pc/pi
+ReportFile   : Untitled.rpt
+
+Program Controls:
+    COMMAND LANGUAGE_VHDL 
+    COMMAND PROPERTY BUS_HOLD ENABLE 
+
+Signal Requests:
+    GROUP USEPOL ALL
+    GROUP FAST_SLEW ALL
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (18:49:13)
+
+Messages:
+  Information: Process virtual 'auxtD'auxtD ... expanded.
+  Information: Process virtual 'auxsrD'auxsrD ... expanded.
+  Information: Process virtual 'auxjkD'auxjkD ... expanded.
+  Information: Process virtual 'auxt' ... converted to NODE.
+  Information: Process virtual 'auxsr' ... converted to NODE.
+  Information: Process virtual 'auxd' ... converted to NODE.
+  Information: Process virtual 'auxjk' ... converted to NODE.
+  Information: Optimizing logic using best output polarity for signals:
+         auxjk.D auxsr.D auxt.D q qn
+
+  Information: Selected logic optimization OFF for signals:
+         auxd.D auxd.AP auxd.AR auxd.C auxjk.AP auxjk.AR auxjk.C auxsr.AP
+         auxsr.AR auxsr.C auxt.AP auxt.AR auxt.C
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (18:49:13)
+
+Messages:
+  Information: Optimizing Banked Preset/Reset requirements.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
+DESIGN EQUATIONS           (18:49:13)
+</CYPRESSTAG>
+
+    auxd.D =
+          d 
+
+    auxd.AP =
+          set 
+
+    auxd.AR =
+          reset 
+
+    auxd.SP =
+          GND
+
+    auxd.C =
+          clk 
+
+    auxjk.D =
+          /auxjk.Q * j 
+        + auxjk.Q * /k 
+
+    auxjk.AP =
+          set 
+
+    auxjk.AR =
+          reset 
+
+    auxjk.SP =
+          GND
+
+    auxjk.C =
+          clk 
+
+    auxsr.D =
+          auxjk.Q * /r * /reset * selector(0) * selector(1) 
+        + auxt.Q * /r * /reset * /selector(0) * selector(1) 
+        + auxd.Q * /r * /reset * selector(0) * /selector(1) 
+        + auxsr.Q * /r * /reset * /selector(0) * /selector(1) 
+        + /r * /reset * set 
+        + s 
+
+    auxsr.AP =
+          set 
+
+    auxsr.AR =
+          reset 
+
+    auxsr.SP =
+          GND
+
+    auxsr.C =
+          clk 
+
+    auxt.D =
+          /auxjk.Q * selector(0) * selector(1) * /set * t 
+        + /auxt.Q * /selector(0) * selector(1) * /set * t 
+        + /auxd.Q * selector(0) * /selector(1) * /set * t 
+        + /auxsr.Q * /selector(0) * /selector(1) * /set * t 
+        + auxjk.Q * /reset * selector(0) * selector(1) * /t 
+        + auxt.Q * /reset * /selector(0) * selector(1) * /t 
+        + auxd.Q * /reset * selector(0) * /selector(1) * /t 
+        + auxsr.Q * /reset * /selector(0) * /selector(1) * /t 
+        + /reset * set * /t 
+        + reset * t 
+
+    auxt.AP =
+          set 
+
+    auxt.AR =
+          reset 
+
+    auxt.SP =
+          GND
+
+    auxt.C =
+          clk 
+
+    q =
+          auxjk.Q * /reset * selector(0) * selector(1) 
+        + auxt.Q * /reset * /selector(0) * selector(1) 
+        + auxd.Q * /reset * selector(0) * /selector(1) 
+        + auxsr.Q * /reset * /selector(0) * /selector(1) 
+        + /reset * set 
+
+    qn =
+          auxd.Q * /reset * selector(0) * /selector(1) 
+        + /auxjk.Q * /reset * selector(0) * selector(1) 
+        + /auxt.Q * /reset * /selector(0) * selector(1) 
+        + /auxsr.Q * /reset * /selector(0) * /selector(1) 
+        + /reset * set 
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN RULE CHECK          (18:49:13)
+
+Messages:
+  Error: Asynchronous Preset equation not allowed for auxt.
+  Error: Asynchronous Preset equation not allowed for auxsr.
+  Error: Asynchronous Preset equation not allowed for auxjk.
+  Error: Asynchronous Preset equation not allowed for auxd.
+
+
+Summary:
+                 Error Count = 4      Warning Count = 0
+
+Errors Detected.

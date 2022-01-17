@@ -1,0 +1,16 @@
+ENTITY titulo IS
+    PORT (
+	clk : in std_logic  ; 
+	set : in std_logic  ; 
+	reset : in std_logic  ; 
+	j : in std_logic  ; 
+	k : in std_logic  ; 
+	s : in std_logic  ; 
+	r : in std_logic  ; 
+	d : in std_logic  ; 
+	t : in std_logic  ; 
+	selector : in std_logic_vector (1 downto 0) ; 
+	q : inout std_logic  ; 
+	qn : inout std_logic 
+    ) ;
+END titulo ;

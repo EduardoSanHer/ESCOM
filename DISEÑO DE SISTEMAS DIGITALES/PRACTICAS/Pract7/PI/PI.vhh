@@ -1,0 +1,9 @@
+ENTITY pi IS
+    PORT (
+	clk : in std_logic  ; 
+	clr : in std_logic  ; 
+	ctr : in std_logic  ; 
+	e : in std_logic_vector (7 downto 0) ; 
+	s : inout std_logic_vector (7 downto 0)
+    ) ;
+END pi ;

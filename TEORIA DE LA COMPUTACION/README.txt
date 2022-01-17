@@ -1,0 +1,1 @@
+Esta materia la cursé con el profesor Rafael Aguilar García, esta ruta contiene las 3 practicas que pidió en el semestre junto con sus especificaciones.

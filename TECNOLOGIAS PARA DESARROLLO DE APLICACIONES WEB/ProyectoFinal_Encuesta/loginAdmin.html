@@ -1,0 +1,85 @@
+<!-- 1  ALVJ-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>SEM20221 / Login</title>
+<meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no'/>
+<meta name="description" content="">
+<meta name="keywords" content="">
+
+<link href="./fontawesome/css/all.min.css" rel="stylesheet">
+
+<link href="./materialize/css/materialize.min.css" rel="stylesheet">
+<link href="./js/validetta/validetta.min.css" rel="stylesheet">
+
+<link href="./css/general.css" rel="stylesheet">
+<link href="./css/generalEstilos.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script src="./js/jquery-3.6.0.min.js"></script>
+
+<script src="./materialize/js/materialize.min.js"></script>
+<script src="./js/validetta/validetta.min.js"></script>
+<script src="./js/validetta/validettaLang-es-ES.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script src="./js/loginAd.js"></script>
+<script src="./js/privadoAd.js"></script>
+
+</head>
+<body>
+  <header>
+    <div class="col s12 m6 l4 header">
+      <h1 class="titulo">Escuela Superior de Computo</h1>
+      <p>Encuesta - Evaluación de Asignaturas</p>
+    </div> 
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large teal darken-3 gray">
+        <i class="large fas fa-bars"></i>
+      </a>
+      <ul>
+        <li><a href="./loginA.html" class="btn-floating tooltipped grey" data-position="left" data-tooltip="Acceder Alumno"><i class="fas fa-user"></i></a></li>
+      </ul>
+    </div>
+  </header>
+  
+  <main class="valign-wrapper">
+    <div class="container">
+        <div class="col s12 m6 l4 input-field">
+          <h2 class="tituloH2 col s12">Bienvenido Administrador</h2>
+        </div>
+        <div class="col s12 m6 l4  input-field">
+          <h4>Acceso:</h4>
+          <form id="formLogin" autocomplete="off">
+          <div class="col s12 m6 l4 input-field">
+            <i class="fas fa-user prefix"></i>
+            <label for="idAdministrador">Usuario</label>
+            <input type="text" id="idAdministrador" name="idAdministrador" maxlength="1" data-validetta="required,number,minLength[1],maxLength[1]">
+          </div>
+          <div class="col s12 m6 l4 input-field">
+            <i class="fas fa-key prefix"></i>
+            <label for="Clave">Contraseña CURP</label>
+            <input type="password" id="Clave" name="Clave" maxlength="4" data-validetta="required,minLength[4],maxLength[4]">
+          </div>
+          <div class="col s12 m6 l4 input-field">
+            <input type="submit" class="btn teal darken-1" style="width: 100%;" value="Entrar">
+          </div>
+          </form>
+        </div>
+      
+    </div>
+  </main>
+  <footer class="page-footer teal">
+    <div class="footer-copyright">
+      <div class="container">
+      © 2021 Copyright Proyecto WEB 
+      <a class="grey-text text-lighten-4 right" href="https://www.escom.ipn.mx">ESCOM</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

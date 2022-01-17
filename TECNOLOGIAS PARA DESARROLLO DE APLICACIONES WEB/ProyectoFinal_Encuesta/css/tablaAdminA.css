@@ -1,0 +1,42 @@
+@media (max-width: 767px){
+    .T1{
+        font-size: 5px;
+        width: 80%;
+    }
+    .T1 th{
+        font-size: 10px;
+    }
+    .TB1{
+        height: 405px;
+    }
+
+    .TB1 .mt{
+        height: 16%;
+    }
+    #PromedioPreguntas{
+        height: 300px !important;
+    }
+}
+
+@media (max-width: 976px){
+    .T1{
+        font-size: 10px;
+        width: 80%;
+    }/* 
+    .TB1{
+        height: 315px;
+    }
+    .TB1 .mt{
+        height: 16%;
+    }
+    .TB{
+        height: 360px;
+    }
+    #PromedioPreguntas{
+        height: 350px !important;
+    } */
+}
+/* 
+#PromedioPreguntas{
+    height: 200px !important;
+} */

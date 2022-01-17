@@ -1,0 +1,18 @@
+El código desplegará un menu con las siguientes opciones
+    1) Formar elemento
+        Esta opción le pedirá que posteriormente ingrese
+        el elemento que en este caso será un entero y 
+        posteriormente le pedirá la prioridad del elemento
+        que también es un entero donde a mayor es el número
+        mayor es la prioridad.
+    
+    2) Desformar el primero
+        Esta opción desforma al primer elemento de la cola
+        y en caso de que sea vacía simplemente mostrará el
+        mensaje de que la cola ya está vacía.
+
+    3) Esta opción termina con el ciclo do while y con ello
+    finaliza el pograma.
+
+Cada vez que se selecciona una opción el programa mostrará
+la cola en pantalla.

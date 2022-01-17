@@ -1,0 +1,83 @@
+1) El programa preguntará al usuario la cantidad de dinero que desea apostar
+
+2) El programa preguntará al usuario a qué números desea apostar, las opciones son:
+    1-  Números pares
+            18 números.
+    2-  Números impares
+            18 números.
+    3-  Un número
+            Posteriormente preguntará al usuario cuál número, si se desea apostar al
+            00 deberá ingresar el número 100***.
+    4-  Dos números
+            Mismas instrucciones que en el caso 3, pero para dos números, si se escribe
+            el mismo número dos veces se tomará como uno solo.
+    5-  Fila
+            3 Números
+            El programa preguntará al usuario cual fila desea apostar, seleccionar solo
+            el número de la fila sin "F" de las siguientes opciones:
+                F1[1,2,3]   F2[4,5,6]   F3[7,8,9]   F4[10,11,12]
+                F5[13,14,15]    F6[16,17,18]    F7[19,20,21]    F8[22,23,24]
+                F9[25,26,27]    F10[28,29,30]   F11[31,32,33]   F12[34,35,36]
+    6-  Cuadro
+            4 números.
+            El programa preguntará al usuario cual cuadro desea apostar, seleccionar solo
+            el número del cuadro sin "C" de las siguientes opciones:
+                C1[1,2,4,5]    C2[2,3,5,6]    C3[7,8,10,11]    C4[8,9,11,12]
+                C5[13,14,16,17]    C6[14,15,17,18]    C7[19,20,22,23]    C8[20,21,23,24]
+                C9[25,26,28,29]    C10[26,27,29,30]    C11[31,32,34,35]    C12[32,33,35,36]
+    7-  Columna
+            12 números.
+            El programa preguntará al usuario cual columna desea apostar, seleccionar solo
+            el número de la columna sin "K" de las siguientes opciones:
+                K1[1,4,7,10,13,16,19,22,25,28,31,34]    K2[2,5,8,11,14,17,20,23,26,29,32,35]
+                K3[3,6,9,12,15,18,21,24,27,30,33,36]
+    8-  Docena
+            12 números.
+            Posteriormente el usuario deberá ingresar los doce números de su preferencia uno
+            por uno.
+    9-  Los cuatro primeros
+            4 números.
+            Apuesta a los números del 1 al 4.
+    10- Los cinco primeros
+            5 números.
+            Apuesta a los números del 1 al 5.
+    11- Rojo
+            18 números.
+            Apuesta a los 18 números rojos [1,3,5,7,9,12,14,16,18,19,21,23,25,27,30,32,34,36]
+    12- Negro
+            18 números.
+            Apuesta a los 18 números negros** [2,4,6,8,10,12,13,15,17,20,22,24,26,28,29,31,33,35]
+    13- Falta
+            18 números.
+            Apuesta a los primeros 18 números** [1-18]
+            No cuentan 0 ni 00.
+    14- Pasa
+            18 números
+            Apuesta a los 18 últimos números [19-36]
+            No cuentan 0 ni 00.
+    15- Cero
+            1 número.
+            Similar a la opción 3, solo que este escoge al 0.
+    16- Doble cero
+            1 número.
+            Similar a la opción 3, solo que este escoge al 00***.
+        
+        ***El doble 100 es el 00***
+        
+        **Los números negativos o positivos no interfieren con el resultado del juego, solo sirven
+        para identificar los números rojos (negativos) y los negros (positivos)**
+
+3)  Una vez que el usuario haya hecho sus apuestas el programa mostrará los números a los que está
+    apostando y posteriormente el resultado que determina si el usuario ganó o perdió.
+
+4)  Si el usuario pierde, perderá su dinero
+    Sino, el usuario ganará una cantidad que dependerá del número de números a los que apostó
+
+    # números   *(cantidad apostada)
+        18        Se paga igual
+        12        Se paga 2 veces
+        5         Se paga 6 veces
+        4         Se paga 8 veces
+        3         Se paga 11 veces
+        2         Se paga 17 veces
+        1         Se paga 35 veces

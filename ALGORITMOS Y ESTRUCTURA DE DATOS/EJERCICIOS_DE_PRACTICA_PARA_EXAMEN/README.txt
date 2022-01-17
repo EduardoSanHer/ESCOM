@@ -1,0 +1,1 @@
+Esta ruta tiene ejercicios de práctica para los examenes finales, los que se encuentran en carpetas son los que pidió en el examen y los que se encuentran fuera son solo ejercicios de practica, no recuerdo bien que hacen xD

@@ -1,0 +1,15 @@
+[General]
+CurrentVersion=102
+[OPENDOC|OUTPUT.IGENERIC||]
+CmdLine=
+[OPENDOC|AVHDLEXTENSION.GENERIC||]
+CmdLine=
+[OPENDOC|HELPREF.GENERIC||]
+CmdLine=
+[OPENDOC|PROJECT.KGENERICC|C:\Documents and Settings\Eduardo\Mis documentos\GALAXY\PRAC_1\vhd\PRAC1\PRAC1.adf|]
+CmdLine=
+Path=
+[OPENDOC|STIMMAN.STIMMANAGER||]
+CmdLine=
+[OPENDOC|VSIM.SHELL||]
+CmdLine=

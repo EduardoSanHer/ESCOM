@@ -1,0 +1,47 @@
+1)  Compilar y ejecutar el programa
+
+2)  El programa mostrará el tablero con las fichas en su posición inicial.
+    Las fichas serán representadas por "1" y "2".
+    Las torres donde se encontrarán las fichas están enumeradas del 1 al 24.
+    Las torres [0] y [25] representan los lugares donde "1" y "2" caen
+        respectivamente al ser "comidas" por la ficha opuesta.
+    Las torres con nombre "Salida Dos" y "Salida Unos" son las torres donde
+        el jugador tendrá que sacar las fichas correspondientes para ganar.
+
+3)  Al comienzo del juego se tiran los dados y se muestra la suma de ambos
+    para cada jugador, el que obtenga el número más grande será el jugador
+    que empieza el juego. Si ambos obtienen el mismo número se volverán a 
+    tirar los dados y mostrar el resultado de cada jugador de nuevo hasta 
+    que se decida quien empieza primero.
+
+4)  Una vez que se decidió quien empieza el juego (indicado por el programa)
+    se tiran los dos dados y a continuación el jugador moverá su ficha 
+    dependiendo de los movimientos disponibles por cada dado, empezando por
+    los movimientos disponibles por el dado 1 y siguiendo con los del dado 2
+
+5)  Para mover una ficha el jugador ingresará el número de la torre origen de
+    donde moverá una ficha hacia la torre destino siempre que se cumplan las
+    siguientes condiciones:
+        1-  Para el jugador de "1", el destino deberá ser un número mayor que el
+            origen, para el jugador de "2" será el caso contrario.
+        2-  En la torre origen deberá haber al menos una ficha del jugador, y en
+            la torre destino deberá haber una o ninguna ficha del jugador opuesto.
+        3-  El número de torres recorridas deberá coincidir con el número de 
+            movimientos disponibles.
+        4-  Cuando una ficha sea comida esta se moverá a la torre [0] para el caso de "1"
+            y [25] para el caso de "2" el jugador deberá sacar su ficha en el turno que le 
+            corresponde, para sacar la ficha deberá escribir el origen ya sea [0] o [25]
+            y el destino dependiendo de los movimientos que tenga disponibles con el dado.
+        5-  Para que un jugador pueda sacar fichas a las torres de "Salida", primero
+            deberá tener sus 15 fichas en las torres [1] a [6] para el caso de "2" y
+            en las torres [19] a [24] para el caso de "1", al momento de sacarlas el jugador
+            deberá indicar como torre destino el [0] o [25] según sea el caso, este destino
+            en lugar de llevar la ficha a la torre [0] y [25], la llevará a la "Salida dos"
+            en el caso de escribir [0] o "Salida unos" en caso de escribir [25], para el jugador
+            que le corresponde la salida, si el dado cae en 6 este puede mover cualquier ficha
+            a la salida sin importar su origen.
+        6-  Si por alguna razón el jugador no puede hacer ningún movimiento con los
+            movimientos disponibles mostrados por el programa, este tendrá que "pasar",
+            para hacerlo indique el mismo número en origen y destino y el programa saltará a los
+            movimientos disponibles por el otro dado o al turno del otro jugador, cualquier número
+            es válido para saltar. 

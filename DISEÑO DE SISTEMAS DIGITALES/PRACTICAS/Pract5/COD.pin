@@ -1,0 +1,19 @@
+Cypress Package: palce22v10-25pc/pi  PinOut File: COD.pin
+
+This file was created on 12/10/2021 at 12:46:29 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+i(9) in <> Enabled Normal 1 <> [Auto] 
+i(8) in <> Enabled Normal 2 <> [Auto] 
+i(7) in <> Enabled Normal 3 <> [Auto] 
+i(6) in <> Enabled Normal 4 <> [Auto] 
+i(5) in <> Enabled Normal 5 <> [Auto] 
+i(4) in <> Enabled Normal 6 <> [Auto] 
+i(3) in <> Enabled Normal 7 <> [Auto] 
+i(2) in <> Enabled Normal 8 <> [Auto] 
+i(1) in <> Enabled Normal 9 <> [Auto] 
+q(0) out <> Enabled Normal 14 <> [Auto] 
+q(2) out <> Enabled Normal 15 <> [Auto] 
+q(3) out <> Enabled Normal 22 <> [Auto] 
+q(1) out <> Enabled Normal 23 <> [Auto] 

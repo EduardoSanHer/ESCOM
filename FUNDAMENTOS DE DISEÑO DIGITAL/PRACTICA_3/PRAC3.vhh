@@ -1,0 +1,8 @@
+ENTITY mux IS
+    PORT (
+	a : in std_logic  ; 
+	b : in std_logic  ; 
+	s : in std_logic_vector (2 downto 0) ; 
+	z : in std_logic 
+    ) ;
+END mux ;

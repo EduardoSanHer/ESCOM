@@ -1,0 +1,8 @@
+ENTITY ds IS
+    PORT (
+	clk : in std_logic  ; 
+	x : in std_logic  ; 
+	display : inout std_logic_vector (6 downto 0) ; 
+	z : inout std_logic 
+    ) ;
+END ds ;

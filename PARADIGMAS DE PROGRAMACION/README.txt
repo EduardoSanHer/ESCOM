@@ -1,0 +1,1 @@
+Esta materia la cursé con el profesor Rafael Aguilar García, en esta ruta se pueden encontrar las 3 prácticas que dejó.

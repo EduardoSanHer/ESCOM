@@ -1,0 +1,113 @@
+.tablefont{
+  font-size:15px;
+}
+
+
+.titulo {
+  font-family: 'Kiona Regular';
+  src: url('./../fonts/Kiona-Regular.ttf') format('truetype');
+  font-size: 65px;
+  text-align: center;
+  color: white;
+}
+
+.tituloH2{
+  font-family: 'Kiona Regular';
+  src: url('./../fonts/Kiona-Regular.ttf') format('truetype');
+  font-size: 65px;
+  text-align: center;
+  color: black;
+}
+
+@media (max-width: 976px){
+  .titulo {
+    font-family: 'Kiona Regular';
+    src: url('./../fonts/Kiona-Regular.ttf') format('truetype');
+    font-size: 30px;
+    text-align: center;
+    color: white;
+  }
+  .tituloH2{
+    font-family: 'Kiona Regular';
+    src: url('./../fonts/Kiona-Regular.ttf') format('truetype');
+    font-size: 40px;
+    text-align: center;
+    color: black;
+  }
+  .tituloAlumno{
+    font-family: 'Kiona Regular';
+    src: url('./../fonts/Kiona-Regular.ttf') format('truetype');
+    font-size: 25px !important;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  .contestar{
+    font-size: 20px;
+  }
+  .select-wrapper input.select-dropdown:focus{
+    font-size: 15px;
+  }
+  div.rating-cancel, div.star-rating {
+    background:none repeat scroll 0 0 transparent;
+    cursor:pointer;
+    display:block;
+    /* float:left !important; */
+  }
+}
+
+.tituloAlumno{
+  font-family: 'Kiona Regular';
+  src: url('./../fonts/Kiona-Regular.ttf') format('truetype');
+  font-size: 45px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.header {
+  padding: 5px;
+  text-align: center;
+  background: #115245;
+  color: white;
+  font-size: 35px;
+}
+
+/*-----ESTRELLAS-----*/
+
+.star-rating{
+  font-size: 0;
+}
+.star-rating__wrap{
+  display: inline-flex;
+  /* display: table-row; */
+  font-size: 1rem;
+}
+.star-rating__wrap:after{
+  display: inline-flex;
+  content: "";
+  /* display: table-row; */
+  clear: both;
+}
+.star-rating__ico{
+  display: inline-flex;
+  box-sizing: border-box;
+  float: right;
+  padding-bottom: 10px;
+  cursor: pointer;
+  color: #FFB300;
+}
+.star-rating__ico:last-child{
+  display: inline-flex;
+  padding-right: 1.6px;
+}
+.star-rating__input{
+  display: inline-flex;
+  position: absolute !important;
+  left: -9999px !important;
+}
+.star-rating__ico:hover:before,
+.star-rating_ico:hover ~ .star-rating_ico:before,
+.star-rating_input:checked ~ .star-rating_ico:before
+{
+  content: "\f005";
+}
+/*-------------------*/

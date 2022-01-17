@@ -1,0 +1,1 @@
+Esta materia la cursé con el profesor José Antorio Ortíz Ramírez, la ruta solo incluye el proyecto final que valió la calificación de todo el semestre.

@@ -1,0 +1,2 @@
+Compilar y ejecutar el programa
+El programa imprimirá primero la cola generada aleatoriamente y posteriormente la cola con las sumas

@@ -1,0 +1,2 @@
+DEC.vhd #Entity dec 7
+DEC.vhd #Architecture a_dec dec 16

@@ -1,0 +1,34 @@
+Design: 13:58, lunes, 21 de junio de 2021
+Design: Opening design "C:\Documents and Settings\Eduardo\Mis documentos\GALAXY\PRAC_3\vhd\PRAC3\PRAC3.adf"
+Compilation with file reorder...
+File: C:\Documents and Settings\Eduardo\Mis documentos\GALAXY\PRAC_3\vhd\PRAC3.vhd
+Compile Entity "mux"
+Compile Architecture "DSMB" of Entity "mux"
+Top-Level unit detected
+Entity  =>   mux
+Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+13:59, lunes, 21 de junio de 2021
+Simulation has been initialized
+Selected Top-Level: mux (DSMB)
+Cannot force signal s with formula 0.
+KERNEL: stopped at time: 100 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+KERNEL: stopped at time: 300 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+KERNEL: stopped at time: 400 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+KERNEL: stopped at time: 500 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+KERNEL: stopped at time: 600 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.

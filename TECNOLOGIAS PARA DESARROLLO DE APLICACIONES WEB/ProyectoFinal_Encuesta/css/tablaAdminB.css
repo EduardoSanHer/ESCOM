@@ -1,0 +1,25 @@
+@media (max-width: 767px){
+    .T1{
+        font-size: 10px;
+        width: 60% !important;
+    }
+    /* .TB{
+        height: 525px;
+    }
+
+    .TB .mt{
+        padding-top: 50px;
+    } */
+}
+
+@media (max-width: 993px){
+    .T1{
+        font-size: 10px;
+        width: 40%;
+    }
+}
+
+/* 
+#PromedioPreguntas{
+    height: 200px !important;
+} */

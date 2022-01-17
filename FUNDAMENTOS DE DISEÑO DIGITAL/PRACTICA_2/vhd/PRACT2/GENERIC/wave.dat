@@ -1,0 +1,43 @@
+$WAVE
+$EVENTS
+;ENDWAVE
+I 0 "e#9#std_logicc9 UX01ZWLH-"
+S 0 0
+0 U
+S 1 0
+1 U
+S 2 0
+2 U
+S 3 0
+3 U
+;ENDWAVE
+S 4 0
+4 U
+S 5 0
+5 U
+S 6 0
+6 U
+S 7 0
+7 U
+;ENDWAVE
+S 8 0
+8 U
+;ENDWAVE
+S 9 0
+9 U
+;ENDWAVE
+S 10 0
+10 U
+;ENDWAVE
+D 1
+8 Z
+10 Z
+9 Z
+T 25000
+8 1
+10 0
+9 0
+D 2
+10 U
+8 U
+$ENDWAVE

@@ -1,0 +1,9 @@
+ENTITY dec IS
+    PORT (
+	clk : in std_logic  ; 
+	clr : in std_logic  ; 
+	ctr : in std_logic_vector (1 downto 0) ; 
+	s : in std_logic_vector (3 downto 0) ; 
+	display : inout std_logic_vector (6 downto 0)
+    ) ;
+END dec ;

@@ -1,0 +1,17 @@
+BiCola Bc;
+Elem a,b;
+[bi1] esnuevaBi(nuevaBi())= Verdadero;
+[bi2] esnuevaBi(formarI(a,Bc))= Falso;
+[bi3] esnuevaBi(formarD(Bc,b))= Falso;
+[bi4] izquierdo(nuevaBi())= Error;
+[bi5] izquierdo(formarI(a,Bc))= a;
+[bi6] izquierdo(formarD(Bc,b))= a;
+[bi7] derecho (nuevaBi())= Error;
+[bi8] derecho (formarI(a,Bc))= a;
+[bi9] derecho (formarD(Bc,b))= b;
+[bi10] desformarIzq(nuevaBi())= Error;
+[bi11] desformarIzq(formarI(a,Bc))= Bc;
+[bi12] desformarIzq(formarD(Bc,b))= desformarIzq(Bc);
+[bi13] desformarDer(nuevaBi())= Error;
+[bi14] desformarDer(formarI(a,Bc))= desformarDer(Bc);
+[bi15] desformarDer(formarD(Bc,b))= Bc;

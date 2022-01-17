@@ -1,0 +1,25 @@
+Cypress Package: palce22v10-25pc/pi  PinOut File: CUADRO.pin
+
+This file was created on 09/03/2021 at 13:08:12 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+sel(1) in <> Enabled Normal 1 <> [Auto] 
+sel(0) in <> Enabled Normal 2 <> [Auto] 
+ref(1) in <> Enabled Normal 3 <> [Auto] 
+ref(0) in <> Enabled Normal 4 <> [Auto] 
+d(1) in <> Enabled Normal 5 <> [Auto] 
+d(0) in <> Enabled Normal 6 <> [Auto] 
+c(1) in <> Enabled Normal 7 <> [Auto] 
+c(0) in <> Enabled Normal 8 <> [Auto] 
+b(1) in <> Enabled Normal 9 <> [Auto] 
+b(0) in <> Enabled Normal 10 <> [Auto] 
+a(1) in <> Enabled Normal 11 <> [Auto] 
+a(0) in <> Enabled Normal 13 <> [Auto] 
+display(6) out <> Enabled Normal 14 <> [Auto] 
+display(3) out <> Enabled Normal 15 <> [Auto] 
+display(5) inout <> Enabled Normal 16 <> [Auto] 
+display(0) out <> Enabled Normal 17 <> [Auto] 
+display(2) inout <> Enabled Normal 21 <> [Auto] 
+display(1) out <> Enabled Normal 22 <> [Auto] 
+display(4) out <> Enabled Normal 23 <> [Auto] 

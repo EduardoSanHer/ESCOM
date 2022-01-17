@@ -1,0 +1,1 @@
+Esta materia la cursé con la profesora Claudia Alejandra, solo realizamos 3 prácticas durante el semestre las cuales se encuentran en esta ruta, las 2 ultimas incluyen su simulación en Proteus 8.10
