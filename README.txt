@@ -1,0 +1,1 @@
+Prácticas, proyectos y demás códigos realizados durante mi carrera en la Escuela Superior de Cómputo del Instituto Politécnico Nacional (ESCOM - IPN).
