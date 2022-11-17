@@ -1,0 +1,41 @@
+/*
+    |-------------------------------------------|
+    |            Datos del alumno               |
+    |   Nombre: Eduardo Sandoval Hernández      |
+    |   Practica número: 2                      |
+    |   Tema: Uso de Java para modo gráfico     |
+    |   Opcion: Dibujo de circulos, lineas y	|
+    |           rectangulos                     |
+    |   Fecha de entrega: 22 de abril de 2022   |
+    |   Grupo: 5CM2                             |
+    |   Materia: Compiladores                   |
+    |-------------------------------------------|
+*/
+
+//Carro
+color 0 ;
+rectangulo 200 200 200 50 ;
+color 1 ;
+rectangulo 250 150 100 50 ;
+color 2 ;
+circulo 50 220 225 ;
+circulo 50 330 225 ;
+
+//Casa
+color 2 ;
+line 500 200 600 100 ;
+line 600 100 700 200 ;
+color 1 ;
+rectangulo 500 200 200 200 ;
+color 0 ;
+rectangulo 575 300 50 100 ;
+
+//Persona
+color 0 ;
+circulo 50 800 200 ;
+color 1 ;
+line 825 250 825 350 ;
+color 2 ;
+line 800 400 825 350 ;
+line 825 350 850 400 ;
+line 780 280 870 280 ;
