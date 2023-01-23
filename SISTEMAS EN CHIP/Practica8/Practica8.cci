@@ -1,0 +1,11 @@
+VERSION:3 SOURCE_TIMESTAMP:5551B022
+NODE:I LEVEL:0 LINE:24 "C:\cvavreval\inc\mega8535.h"
+NODE:I LEVEL:0 LINE:25 "C:\cvavreval\inc\delay.h"
+NODE:M LEVEL:0 LINE:26 "reset"
+NODE:M LEVEL:0 LINE:27 "stop"
+NODE:M LEVEL:0 LINE:28 "start"
+NODE:V LEVEL:0 LINE:30 "unidades -> R5"
+NODE:V LEVEL:0 LINE:31 "decenas -> R4"
+NODE:V LEVEL:0 LINE:32 "decimas -> R7"
+NODE:C LEVEL:0 LINE:33 "tabla7segmentos -> FLASH"
+NODE:F LEVEL:0 LINE:37 "main(void)"

@@ -1,0 +1,47 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+valorFinal                                                                        0x00E0       4
+decimas                                                                           0x00E4       1
+valorADC                                                                          0x00E5       1
+seg                                                                               0x00E6       1
+min                                                                               0x00E7       1
+hor                                                                               0x00E8       1
+dia                                                                               0x00E9       1
+mes                                                                               0x00EA       1
+anio1                                                                             0x00EB       2
+anio2                                                                             0x00ED       2
+_base_y (alcd.lib)                                                                0x00EF       4
+_lcd_x                                                                            0x00F3       1
+_lcd_y                                                                            0x00F4       1
+_lcd_maxx                                                                         0x00F5       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+temperatura                                                                       R4,R5        2
+desplz                                                                            R6,R7        2
+cont_antidelay                                                                    R8,R9        2
+time_antidelay                                                                    R10,R11      2
+botonp                                                                            R2.0      1bit
+botona                                                                            R2.1      1bit
+cambio                                                                            R2.2      1bit
+unidades                                                                          R13          1
+decenas                                                                           R12          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+read_adc                                                                          0x00066     13
+main                                                                              0x00073    360
+_lcd_write_nibble_G100                                                            0x001DB     14
+_lcd_write_data                                                                   0x001E9     13
+lcd_gotoxy                                                                        0x001F6     18
+lcd_clear                                                                         0x00208     16
+lcd_putchar                                                                       0x00218     30
+lcd_putsf                                                                         0x00236     15
+lcd_init                                                                          0x00245     41

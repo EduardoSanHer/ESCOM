@@ -1,0 +1,1 @@
+Asignatura cursada con el profesor Juan Carlos Tellez Barrera.

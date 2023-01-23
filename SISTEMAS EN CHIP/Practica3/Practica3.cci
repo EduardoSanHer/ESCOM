@@ -1,0 +1,6 @@
+VERSION:3 SOURCE_TIMESTAMP:55256568
+NODE:I LEVEL:0 LINE:24 "C:\cvavreval\inc\mega8535.h"
+NODE:V LEVEL:0 LINE:25 "variableA -> R5"
+NODE:V LEVEL:0 LINE:26 "variableB -> R4"
+NODE:C LEVEL:0 LINE:27 "tabla7segmentos -> FLASH"
+NODE:F LEVEL:0 LINE:32 "main(void)"

@@ -1,0 +1,5 @@
+VERSION:3 SOURCE_TIMESTAMP:556A639D
+NODE:T LEVEL:0 LINE:4 "Pila"
+NODE:F LEVEL:0 LINE:8 "push(unsigned char e,Pila l)"
+NODE:F LEVEL:0 LINE:18 "top(Pila l)"
+NODE:F LEVEL:0 LINE:20 "pop(Pila l)"

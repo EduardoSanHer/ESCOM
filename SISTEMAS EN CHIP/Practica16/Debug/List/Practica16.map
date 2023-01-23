@@ -1,0 +1,24 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+botonp                                                                            R2.0      1bit
+botona                                                                            R2.1      1bit
+grado                                                                             R2.2      1bit
+valorADC                                                                          R5           1
+valorFinal                                                                        R4           1
+auxValor1                                                                         R6,R7        2
+auxValor2                                                                         R8,R9        2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+read_adc                                                                          0x0004B     15
+main                                                                              0x0005A    153

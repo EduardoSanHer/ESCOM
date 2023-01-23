@@ -1,0 +1,24 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+hold1                                                                             R5           1
+hold2                                                                             R4           1
+max1                                                                              R7           1
+max2                                                                              R6           1
+count                                                                             R8,R9        2
+valorADC1                                                                         R11          1
+valorADC2                                                                         R10          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+read_adc                                                                          0x00047     15
+main                                                                              0x00056    379

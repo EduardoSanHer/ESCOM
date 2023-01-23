@@ -1,0 +1,12 @@
+VERSION:3 SOURCE_TIMESTAMP:55857E53
+NODE:I LEVEL:0 LINE:24 "C:\cvavreval\inc\mega8535.h"
+NODE:I LEVEL:0 LINE:26 "C:\cvavreval\inc\delay.h"
+NODE:M LEVEL:0 LINE:28 "boton"
+NODE:C LEVEL:0 LINE:34 "tabla7segmentos -> FLASH"
+NODE:V LEVEL:0 LINE:37 "valorADC -> R5"
+NODE:V LEVEL:0 LINE:38 "valorFinal -> R4"
+NODE:V LEVEL:0 LINE:39 "auxValor1 -> R6,R7"
+NODE:V LEVEL:0 LINE:39 "auxValor2 -> R8,R9"
+NODE:M LEVEL:0 LINE:45 "ADC_VREF_TYPE"
+NODE:F LEVEL:0 LINE:49 "read_adc(unsigned char adc_input)"
+NODE:F LEVEL:0 LINE:64 "main(void)"
